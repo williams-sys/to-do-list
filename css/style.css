@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+h3,h2,h4,p{
+    font-family: 'Ubuntu', sans-serif;
+}
+p,button{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main{
+    width: 100vh;
+}
+.list-ui{
+    background: #007bff4d;
+    padding: 10px;
+    border-radius: 0.25rem;
+}
+.list{
+    overflow: auto;
+    height: 75vh;
+}
+.list-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text-overflow{
+    overflow: auto;
+    width: 20vh;
+}
+
+.delBtn{
+    color: #dc3545;
+    font-size: 2rem;
+}
+.editBtn{
+    color: #007bff;
+    font-size: 2rem;
+}
+#addBtn{
+    color: #007bff;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+@media screen and (max-width: 576px){
+
+
+
+}
+
+@media screen and (max-width: 780px){
+
+
+
+}
+
+
+@media screen and (max-width: 1024px){
+
+
+}
